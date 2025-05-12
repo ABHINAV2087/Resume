@@ -1,0 +1,245 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\input{glyphtounicode}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Abhinav Tirole} \\ \vspace{2pt}
+    \small +91 6260807448 $|$ \href{mailto:tiroleabhinav@gmail.com}{{tiroleabhinav@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/abhinavtirole2003/}{\textcolor{blue}{LinkedIn}} $|$
+    \href{https://github.com/ABHINAV2087}{\textcolor{blue}{GitHub}} $|$ \href{www.abhinavtirole.tech}{\textcolor{blue}{Portfolio}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+ \resumeSubHeadingListStart
+    \resumeSubheading
+      {Integrated Masters of Technology in CSE, Minors in Artificial Intelligence}{CGPA - \textbf{8.43}}
+      {Vellore Institute of Technology (VIT), Bhopal, IN}{Jul. 2021 -- May 2026}
+    \resumeSubheading
+      {Higher Secondary $|$ Bhopal $|$ Mar 20 - Jul 21}{Grade - \textbf{92.20\%}}
+      {\vspace{-2mm}}{\vspace{-2mm}}
+       \vspace{-2mm}
+    \resumeSubheading
+      {Secondary $|$ Bhopal $|$ Mar 18 - May 19}{Grade - \textbf{92\%}}
+      {\vspace{-2mm}}{\vspace{-2mm}}
+\resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt, parsep=2pt]
+    \small{
+        \item \textbf{Languages}:  Java, SQL, JavaScript, HTML/CSS  
+        \item \textbf{Frameworks/Libraries}:  React, Node.js, Express.js, Tailwind CSS, TensorFlow, Scikit-learn, Pandas, Matplotlib  
+        \item \textbf{Developer Tools}:  Postman API, Git, GitHub, VS Code, Google Collab, Jupyter Notebook 
+         
+    }
+\end{itemize}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Machine Learning Project Intern}{Oct 2024 -- Dec 2024 }
+      {Infosys Springboard}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed and optimized a \textbf{machine learning}-based fraud detection model for job postings, achieving \textbf{96\% accuracy} on randomly sourced data, significantly improving fraud detection capabilities.}
+        \resumeItem{Led a cross-functional team of 5 members, implementing \textbf{Agile methodologies} to streamline workflows, enhance collaboration, and accelerate project timelines}
+        \resumeItem{Deployed the model within a \textbf{Flask-based web application}, enabling \textbf{real-time} job post verification, reducing fraudulent listings.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+   \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Job Posting Authenticity Analysis} $|$ \hfill {\scriptsize \textit{Flask, Scikit-learn, Pandas, NumPy, Python}}}  
+        {\textcolor{black}{\href{https://github.com/ABHINAV2087/JobPosting_authenticity_analysis}{GitHub}}}
+    \resumeItemListStart
+        \resumeItem{Developed a Flask-based web application integrating \textbf{5+ ML models} (Naive Bayes, SVM, Random Forest, XGBoost, Logistic Regression) to detect fraudulent job postings with 96\% accuracy.}
+        \resumeItem{Conducted extensive EDA and feature engineering using Scikit-learn, Pandas, and NumPy, optimizing model performance and fraud detection.}
+        \resumeItem{Designed a \textbf{user-friendly UI} with HTML \& CSS for real-time job authenticity analysis, enhancing accessibility for job seekers.}
+    \resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{MediLink - Healthcare Management System} $|$ \hfill {\scriptsize \textit{MERN, JWT, Google APIs, Razorpay, Socket.io}}}  
+    {\textcolor{black}{\href{https://github.com/ABHINAV2087/MediLink---Healthcare_Services}{GitHub} $|$ \href{https://medilink-healthcareservices.vercel.app/}{Live}}}
+    \resumeItemListStart
+        \resumeItem{Built a \textbf{MERN}-based healthcare management system with 10+ \textbf{REST API} endpoints, streamlining hospital workflows while optimizing MongoDB queries for 30\% faster data retrieval.}
+        \resumeItem{Implemented role-based authentication (\textbf{JWT}, bcrypt) and \textbf{Google Authentication}, securing patient, doctor, and admin access.}
+        \resumeItem{Integrated Google Calendar \& Meet APIs for automated scheduling, virtual consultations, and \textbf{Razorpay} for secure transactions.}           
+        \resumeItem{Created MediMeet, a 1:1 video and chat platform, enabling \textbf{real-time encrypted} doctor-patient \textbf{communication}.}   
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+
+%
+%-----------INVOLVEMENT---------------
+\section{Certifications}
+\begingroup
+\hypersetup{colorlinks=false, urlcolor=black}
+\resumeSubHeadingListStart
+\setlength{\itemsep}{0pt}  % Reduces the gap between items
+
+\item[\small$\bullet$] \href{https://drive.google.com/file/d/12qY2GAijYVd5Noy6na0l01eNhLm5-a4d/view?usp=drive_link}{Oracle Cloud Infrastructure Generative AI Professional} \hfill July 2024
+
+\item[\small$\bullet$] \href{https://coursera.org/share/4e232c981170ed06e0249a9077f24119}{Applied Machine Learning in Python \textit{\small (University of Michigan)}} \hfill Jan 2023
+
+\resumeSubHeadingListEnd
+\endgroup
+
+
+
+\section{Extra Curriculars and Achievements}
+\begingroup
+\hypersetup{colorlinks=false, urlcolor=black}
+\resumeSubHeadingListStart
+\setlength{\itemsep}{0pt}  % Reduces the gap between items
+
+\item[\small$\bullet$] \textbf{Hacktoberfest Contributor 23 \& 24} – Completed 9+ open-source contributions across the season . 
+
+\item[\small$\bullet$] \textbf{HR Core Team Lead, Data Science Club} : Coordinated 4+ monthly meetings, managing 5+ teams and 50+ members, increasing engagement by 30+ members in 6 months. }
+\item[\small$\bullet$] \textbf{Core Team , NSS VIT Bhopal} : Successfully planned and executed 10+ key events, ensuring seamless organization, high engagement, and strong participation, each impacting 50+ attendees }
+
+\resumeSubHeadingListEnd
+\endgroup
+
+
+%-------------------------------------------
+\end{document}
